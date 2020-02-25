@@ -1,3 +1,4 @@
+
 node {
     checkout:([class: 'GitSCM',
     branches:  [[name: '*/master']],
@@ -8,4 +9,4 @@ node {
     credentialsid:'59137fc3-edf1-41ae-8fd2-aedb3d260883',
     url: 'https://github.com/satyamnaidu215/dictinoary.git'
     ]]])
-    
+   } 
