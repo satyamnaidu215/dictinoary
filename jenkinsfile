@@ -1,7 +1,7 @@
 
 node {
     checkout:([class: 'GitSCM',
-    branches:  [[name: '*/master']],
+    branches:  [[name: '*/classroom']],
     dogenerateSubmoduleconnfigurations: false,
     extensions: [],
     submoduleCfg: [],
